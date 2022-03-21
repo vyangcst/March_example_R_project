@@ -1,0 +1,21 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Density plot
+
+```{r}
+source("R/custom_density_plot.R")
+density_toothGrowth()
+```
+
+# Boxplot of iris data
+
+```{r}
+source("R/custom_boxplot.R")
+iris_boxplot()
+```
