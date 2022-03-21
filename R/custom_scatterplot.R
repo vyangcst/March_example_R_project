@@ -20,5 +20,6 @@ custom_scatter <- function(x_var, y_var){
       ggplot2::aes(color = Species), 
       size = 3,
       alpha = 0.9
-    ) 
+    ) +
+    ggplot2::scale_color_manual(values = c("#CC2936", "#004643", "#3E92CC"))
 }
